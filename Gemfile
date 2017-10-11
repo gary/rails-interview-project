@@ -20,4 +20,7 @@ gem 'turbolinks'
 # API
 gem 'jbuilder', '~> 2.0'
 
-gem 'ffaker'
+group :development, :test do
+  gem 'ffaker'
+  gem 'rspec-rails', '~> 3.6'
+end
