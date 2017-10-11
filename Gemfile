@@ -8,10 +8,10 @@ gem 'rails', '~> 4.2.4'
 gem 'sqlite3'
 
 # Asset processing
-gem 'sass-rails'
-gem 'uglifier'
 gem 'coffee-rails'
+gem 'sass-rails'
 gem 'therubyracer', platforms: :ruby
+gem 'uglifier'
 
 # Assets
 gem 'jquery-rails'
