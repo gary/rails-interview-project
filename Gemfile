@@ -21,6 +21,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
 group :development, :test do
+  gem 'factory_girl_rails', '~> 4.0'
   gem 'ffaker'
   gem 'rspec-rails', '~> 3.6'
+end
+
+group :test do
+  gem 'database_cleaner'
 end
