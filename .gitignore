@@ -13,7 +13,6 @@ rerun.txt
 pickle-email-*.html
 .keep
 
-
 ## Environment normalization:
 /.bundle
 /vendor/bundle
@@ -31,3 +30,7 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
+# YARD artifacts
+.yardoc/
+doc/

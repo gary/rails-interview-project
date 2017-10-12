@@ -20,6 +20,10 @@ gem 'turbolinks'
 # API
 gem 'jbuilder', '~> 2.0'
 
+group :development do
+  gem 'yard'
+end
+
 group :development, :test do
   gem 'factory_girl_rails', '~> 4.0'
   gem 'ffaker'

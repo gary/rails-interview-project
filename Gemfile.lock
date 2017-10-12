@@ -162,6 +162,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
+    yard (0.9.9)
 
 PLATFORMS
   ruby
@@ -180,6 +181,7 @@ DEPENDENCIES
   therubyracer
   turbolinks
   uglifier
+  yard
 
 RUBY VERSION
    ruby 2.4.2p198
