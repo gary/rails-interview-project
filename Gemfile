@@ -20,9 +20,4 @@ gem 'turbolinks'
 # API
 gem 'jbuilder', '~> 2.0'
 
-group :development do
-  # Preloading
-  gem 'spring'
-end
-
 gem 'ffaker'
