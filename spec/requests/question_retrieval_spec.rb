@@ -4,7 +4,7 @@ require 'rails_helper'
 
 RSpec.describe 'Questions API' do
   describe '#index' do
-    it 'returns all Questions' do
+    it 'returns all non-private Questions' do
       get '/questions'
 
       expect(response.content_type).to eq('application/json')

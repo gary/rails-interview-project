@@ -5,6 +5,6 @@
 class QuestionsController < ApplicationController
   # @api
   def index
-    @questions = Question.all
+    @questions = Question.not_private
   end
 end
