@@ -17,6 +17,11 @@ Layout/ExtraSpacing:
   Exclude:
     - 'db/schema.rb'
 
+Metrics/BlockLength:
+  ExcludedMethods:
+    - context
+    - describe
+
 Naming/FileName:
   Exclude:
     - 'Gemfile'
