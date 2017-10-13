@@ -1,0 +1,35 @@
+AllCops:
+  Include:
+    - 'config/routes.rb'
+  Exclude:
+    - 'Rakefile'
+    - 'bin/*'
+    - 'config.ru'
+    - 'config/**/*'
+
+Rails:
+  Enabled: true
+
+Rails/ApplicationRecord:
+  Enabled: false
+
+Layout/ExtraSpacing:
+  Exclude:
+    - 'db/schema.rb'
+
+Naming/FileName:
+  Exclude:
+    - 'Gemfile'
+
+Style/Documentation:
+  Exclude:
+    - 'db/migrate/*'
+
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'Gemfile'
+    - 'db/**/*'
+
+Style/NumericLiterals:
+  Exclude:
+    - 'db/schema.rb'
