@@ -7,6 +7,7 @@ class QuestionsController < ApplicationController
               with: :tenant_unauthorized
 
   before_action :authenticate_tenant
+  after_action  :track_tenant
 
   # @api
   def index
@@ -23,5 +24,9 @@ class QuestionsController < ApplicationController
 
   def tenant_unauthorized
     render json: { message: 'Invalid API key' }, status: 401
+  end
+
+  def track_tenant
+    @tenant.track_access
   end
 end
